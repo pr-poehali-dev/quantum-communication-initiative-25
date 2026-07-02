@@ -17,29 +17,29 @@ export function ServicesSection() {
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
             Услуги
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что мы делаем</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Котельные под ключ",
+              description: "Проектирование, поставка и монтаж газовых, электрических и твердотопливных котельных любой мощности",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Системы отопления",
+              description: "Радиаторное отопление, тёплые полы и горячее водоснабжение с точным расчётом теплопотерь",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Вентиляция и рекуперация",
+              description: "Приточно-вытяжные системы с рекуперацией тепла для здорового микроклимата и экономии",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Сервис и обслуживание",
+              description: "Пусконаладка, регулярное ТО и гарантийная поддержка оборудования круглый год",
               direction: "bottom",
             },
           ].map((service, i) => (
